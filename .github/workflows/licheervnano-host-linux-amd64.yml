@@ -14,7 +14,7 @@ jobs:
       - name: ccache
         uses: hendrikmuhs/ccache-action@v1.2
         with:
-          max-size: "20G"
+          max-size: "120G"
           create-symlink: true
           key: ${{matrix.os }}-${{ matrix.type }}
 
